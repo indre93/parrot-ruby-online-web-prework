@@ -24,7 +24,7 @@ describe '#parrot' do
   end
 end
 
-def parrot(parrot = "Squawk!")
-  puts "#{parrot}"
-  returns "#{parrot}"
+def parrot(phrase = "Squawk!")
+  puts phrase
+  return phrase
 end
